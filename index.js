@@ -109,7 +109,7 @@ const fs = require("fs");
             }
         }
     }
-    await scrapePage(url, 1, scrapeToPage)
+    await scrapePage(url, 1, 1)
 
     console.log("Scraping finished.")
 
